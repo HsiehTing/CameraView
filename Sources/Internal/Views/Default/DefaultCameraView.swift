@@ -37,7 +37,7 @@ public struct DefaultCameraView: MCameraView {
 private extension DefaultCameraView {
     func createTopView() -> some View {
         ZStack {
-            createCloseButton()
+            //createCloseButton()
             createTopCentreView()
             createTopRightView()
         }
@@ -67,7 +67,7 @@ private extension DefaultCameraView {
 private extension DefaultCameraView {
     func createOutputTypeButtons() -> some View {
         HStack(spacing: 8) {
-            createOutputTypeButton(.video)
+            //createOutputTypeButton(.video)
             createOutputTypeButton(.photo)
         }
         .padding(8)
